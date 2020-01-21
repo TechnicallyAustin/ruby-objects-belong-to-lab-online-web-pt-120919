@@ -7,7 +7,6 @@ class Post
     @name = name
   end
   
-  Post.author.name = @author 
   
   
   
