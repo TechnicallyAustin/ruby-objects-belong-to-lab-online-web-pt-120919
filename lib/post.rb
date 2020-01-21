@@ -5,7 +5,7 @@ class Post
   end
   
   def author
-    writer = Author.new 
+    self.author = Author.new 
   end
     
   
