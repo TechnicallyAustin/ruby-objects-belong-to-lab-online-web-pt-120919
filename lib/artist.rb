@@ -1,7 +1,7 @@
 class Artist 
   attr_accessor :name, :album
   
-  def initialzie
+  def initialize(name)
     @name = name 
   end
   
