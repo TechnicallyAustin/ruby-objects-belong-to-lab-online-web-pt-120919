@@ -1,8 +1,10 @@
 class Author 
   attr_accessor :name, :book
   
-  def initialize(name)
-    @name = Self.new 
+  def initialize(name, book)
+    @name = Self.new
+    @book = book
+    
   end
   
   
