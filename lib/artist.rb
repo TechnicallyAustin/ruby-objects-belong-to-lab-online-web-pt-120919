@@ -3,6 +3,7 @@ class Artist
   
   def initialzie(name)
     @name = name 
+    self.name = @name 
   end
   
   
