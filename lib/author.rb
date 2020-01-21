@@ -3,8 +3,6 @@ class Author
   
   def initialize(name, book)
     @name = Self.new
-    @book = book
-    
   end
   
   
