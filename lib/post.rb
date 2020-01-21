@@ -7,11 +7,7 @@ class Post
     @name = name
   end
   
-  def author
-    @author = Author.new
-    
-  end
-    
+  Post.author.name = @author 
   
   
   
